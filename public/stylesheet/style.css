@@ -1,0 +1,89 @@
+body {
+    background: black;
+    margin: 0;
+    background-image: url("/images/stadium.jpeg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+}
+
+/*HOME*/
+
+.text-white, h1 {
+    text-align: center;
+    size-adjust: 200%;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    size-adjust: 200%;
+}
+
+#picture {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+/*ABOUT*/
+
+#text-box {
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around
+}
+
+#early-days {
+    text-align: center;
+    height: 340px;
+    width: 1000px;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+}
+
+#sporting {
+    text-align: center;
+    height: auto;
+    width: 1000px;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+}
+
+#manchester {
+    text-align: center;
+    height: auto;
+    width: 1000px;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+}
+
+#real-madrid {
+    text-align: center;
+    height: auto;
+    width: 1000px;
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+}
+
+/*MASTERPIECES*/
+
+#masterpieces-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    column-gap: 50px;
+}
+
+.carousel {
+    height: 400px;
+    width: 600px;
+}
