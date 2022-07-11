@@ -1,5 +1,5 @@
 body {
-    background: black;
+    background-color: black !important;
     margin: 0;
     background-image: url("/images/stadium.jpeg");
     background-repeat: no-repeat;
